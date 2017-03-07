@@ -3,6 +3,6 @@ import ReactDOM from "react-dom";
 import Hello from "./hello";
 
 ReactDOM.render(
-  <Hello name="World" />,
+  <Hello prop1="Red" prop2="square"/>,
   document.body
 );
