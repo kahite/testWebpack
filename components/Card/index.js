@@ -10,16 +10,15 @@ export default class CardComponent extends React.Component {
   };
 
   render() {
-    let shape = <Circle/>;
+    let shape = <Circle color={this.props.color} fill={this.props.fill}/>;
     switch (this.props.shape) {
       case 'square':
-        shape = <Square/>;
+        shape = <Square color={this.props.color} fill={this.props.fill}/>;
         break;
       case 'triangle':
-        shape = <Triangle/>;
+        shape = <Triangle color={this.props.color} fill={this.props.fill}/>;
         break;
       default:
-
     }
 
     let elements = [];
