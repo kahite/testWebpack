@@ -1,0 +1,19 @@
+.Card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 215px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.Card--selected {
+  border: double;
+}
+
+.Card-element {
+  height: 100px;
+  align-self: center;
+}
